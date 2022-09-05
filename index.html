@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer type="module" src="form-tests.js"></script>
+</head>
+
+<body>
+    <form data-formy-id="testing_form">
+        <label for="name">
+            Nombre
+            <input type="text" name="name" id="name" value="">
+        </label>
+        <label for="name">
+            Apellido
+            <input type="text" name="apellido" id="apellido">
+        </label>
+        <fieldset>
+            <legend>Favorite food</legend>
+            <input type="checkbox" name="favorite_food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label>
+            <input type="checkbox" name="favorite_food" id="salami" value="salami">
+            <label for="salami">Salami</label>
+            <input type="checkbox" name="favorite_food" id="sandwich" value="sandwich">
+            <label for="sandwich">Sandwich</label>
+        </fieldset>
+        <fieldset>
+            <legend>Pronoun</legend>
+            <input type="radio" name="pronoun" id="pronoun_mr">
+            <label for="pronoun_mr">Mr</label>
+            <input type="radio" name="pronoun" id="pronoun_ms">
+            <label for="pronoun_ms">Ms</label>
+            <input type="radio" name="pronoun" id="pronoun_other">
+            <label for="pronoun_other">Other</label>
+            <input type="text" name="pronoun" id="pronoun_other" placeholder="Write your pronoun here" disabled>
+        </fieldset>
+    </form>
+</body>
+
+</html>
