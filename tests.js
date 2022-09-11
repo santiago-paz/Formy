@@ -4,8 +4,6 @@ form.checkbox("favorite_food").pizza.checked;
 // set checkbox fields:
 form.checkbox("favorite_food").pizza.check();
 form.checkbox("favorite_food").pizza.uncheck();
-form.checkbox("favorite_food").pizza.set(true);
-form.checkbox("favorite_food").pizza.set(false);
 // you can also
 form.checkbox("favorite_food").pizza.check().uncheck().set(true);
 // fields label (read/write property):
@@ -18,7 +16,7 @@ form.checkbox("favorite_food").getValues();
     salami: false,
     sandwich: false } */
 // you can also
-form.checkbox("favorite_food").getValues().pizza = false;
+/* form.checkbox("favorite_food").getValues().pizza = false; */
 // check/uncheck all:
 form.checkbox("favorite_food").checkAll();
 form.checkbox("favorite_food").uncheckAll();
